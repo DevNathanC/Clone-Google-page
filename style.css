@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+     "header"
+     "main"
+     "aside"
+     "footer";
+
+     grid-template-rows: 40px 1fr 50px 40px;
+
+}
+
+.linksHeader {
+    margin-top: 40px;
+    margin-left: 10px;
+    position: relative;
+    left: 90%;
+    text-decoration:none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    
+
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+}
+
+
+.imgConta{
+    border-radius: 200px;
+    width: auto;
+    height: 30px;
+    margin-top: 4px;
+}
+.btnConta{
+    position: relative;
+    left: -186%;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: rgb(31, 31, 31);
+    border-color: white;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(31, 31, 31);
+}
+
+.logoGoogle{
+    width: 390px;
+    height: auto;
+    position: relative;
+    left: 34%;
+    margin: 20px;
+}
+
+input{
+    position: relative;
+    left: 29%;
+    padding: 14px;
+    width: 550px;
+    border-radius: 30px;
+    opacity: 1;
+    border-color: gray;
+    background-color: rgb(31, 31, 31);
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+
+input:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.btnPesquisa{
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+    left: 39%;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: gray;
+    border-radius: 5px;
+    opacity: 1;
+    background-color: rgb(58, 58, 58);
+    border: none;
+    color: white;    
+}
+
+.linguagem{
+    margin-left: 280px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.linguagem2{
+    margin-left: 10px;
+    color: rgb(63, 172, 255);
+    
+}
+
+
+aside {
+    grid-area: aside;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+}
+
+.pAside{
+    color: rgb(177, 177, 177);
+    font-family: sans-serif;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.aside{
+    background-color: rgb(46, 46, 46);
+    height: 1px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(26, 26, 26    );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-color: rgb(31, 31, 31);
+    border-top-width: 1px;
+    border-top-style: solid;
+    
+    
+}
+
+.pEsquerda{
+    color: rgb(177, 177, 177);
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.pDireita{
+    color: rgb(177, 177, 177);
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.pFilho{
+    margin-right: 25px;
+}
+
+
